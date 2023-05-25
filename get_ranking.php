@@ -1,9 +1,4 @@
 <?php
-if ($argc !== 1) {
-    fputs(STDERR, "Error: Invalid number of arguments.\n");
-    exit(1);
-}
-
 main();
 
 function main() {
